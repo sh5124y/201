@@ -15,21 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C기초\04.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C기초\03switch.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="C기초\04.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="C기초\04함수의 선언과 정의.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="C기초\05논리연산자.c">
+    <ClCompile Include="C++기본\00 C++기본.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
