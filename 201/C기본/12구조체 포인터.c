@@ -13,13 +13,13 @@ int main(void)
 	point.x = 5.0f;
 	point.y = 10.0f;
 	//call by value라서 값이 안 바뀜
-	AddValueToPoint(point);
+	AddValueToPoint(&point);
 	printf("%1.f,%1.f\n", point.x, point.y);
 
 	return 0;
 }
 
-void AddValueToPoint(point p) {
-	p.x += 10.0f;
-	p.y += 14.0f;
+void AddValueToPoint(point* p) {
+	p->x  += 10.0f;
+	p->y += 14.0f;
 }
