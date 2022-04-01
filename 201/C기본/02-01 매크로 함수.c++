@@ -5,8 +5,8 @@ using namespace std;
 
 int main(void)
 {
-	cout << jegob(3) << endl;
-	cout << 3 * 3 << endl;//위에꺼랑 같음
+	cout << jegob(3+1) << endl;
+	cout << 3+1 * 3+1 << endl;//위에꺼랑 같음
 
 	return 0;
 }
