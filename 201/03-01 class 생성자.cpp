@@ -17,10 +17,14 @@ public:
 		cout << "학번이 등록되었습니다." << endl;
 
 	}
+	void show() {
+		cout << "학번은" << nHakbun<< "입니다" << endl;
+		cout << "이름은" << sName << "입니다" << endl;
+	}
 
 };
 
 int main(void) {
 	student stu;
-	
+	stu.show();
 }
