@@ -18,11 +18,19 @@
     <ClCompile Include="03-01 class 생성자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C기본\02-02 inline 함수.c++">
+    <ClCompile Include="C기본\02-02 inline 함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C기본\02-01 매크로 함수.c++">
+    <ClCompile Include="C기본\02-01 매크로 함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="깊은복사2_107윤소희.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="소스1.cpp">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
