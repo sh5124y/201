@@ -1,18 +1,6 @@
 #include<iostream>
 using namespace std;
-
-class Integer {
-public:
-	Integer(void){}
-	Integer(int v) : value(v) {}
-
-	Integer operator+(const Integer& rhs);
-
-	void print();
-
-private:
-	int value;
-};
+#include "04-02.h"
 
 int main(void) {
 	Integer a = Integer(1);
@@ -22,17 +10,5 @@ int main(void) {
 
 	return 0;
 }
+ 
 
-
-Integer Integer::operator+(const Integer& rhs)
-{
-	Integer temp;
-	temp.value = value + rhs.value;
-
-	return temp;
-}
-
-void Integer::print()
-{
-	cout << value << endl;
-}
