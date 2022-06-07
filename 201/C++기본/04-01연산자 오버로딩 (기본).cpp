@@ -6,6 +6,9 @@ class Point
 {
 public:
 	Point(int _x, int _y);
+
+	Point operator+(const Point& rhs);
+	
 	void print(void);
 
 private:
@@ -16,6 +19,11 @@ private:
 Point::Point(int _x, int _y) : mX(_x), mY(_y)
 {
 	
+}
+
+Point Point::operator+(const Point& rhs)
+{
+	return Point();
 }
 
 void Point::print(void)
